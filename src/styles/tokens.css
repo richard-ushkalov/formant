@@ -1,0 +1,32 @@
+:root {
+  --size-control: 38px;
+  --size-hit: 46px;
+  --space-gap: 8px;
+  --space-inset: 4px;
+  --space-panel: 32px;
+  --width-column: 300px;
+  --radius-control: calc(var(--size-control) / 2);
+  --radius-panel: calc(var(--size-control) / 2 + var(--space-inset));
+
+  --color-page: #FFFFFF;
+  --color-ink: #000000;
+  --color-inside-ink: #FFFFFF;
+  --color-muted: #5E5E5E;
+  --color-muted-inside-ink: #888888;
+  --color-accent: #EE600E;
+
+  --font-display: 'Handjet Variable', monospace;
+  --font-text: 'Inter Variable', system-ui, sans-serif;
+  --text-display: 1.75rem;
+  --text-label: 1rem;
+  --text-time: 0.625rem;
+  --wght-primary: 400;
+  --wght-secondary: 300;
+  --wght-tertiary: 200;
+  --wght-accent: 500;
+
+  --handjet-shape: 8;
+  --handjet-grid: 1;
+
+  --blur-edge: 48px;
+}
